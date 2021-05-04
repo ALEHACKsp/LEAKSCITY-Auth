@@ -4,8 +4,8 @@ Biblioteka logowania do systemu AuthKey LeaksCity.cc - https://leakscity.cc/lcui
 Zainstaluj paczki Newtonsoft.Json i System.Management, skompiluj bibliotekę logowania, dodaj odwołanie do swojego projektu.
 # Przykładowe użycie
 ```csharp
-			using LEAKSCITY_Auth;
-			using LEAKSCITY_Auth.Model;
+using LEAKSCITY_Auth;
+using LEAKSCITY_Auth.Model;
             Console.WriteLine("Authkey:");
             string key = Console.ReadLine();
 
