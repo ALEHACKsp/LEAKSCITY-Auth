@@ -11,6 +11,8 @@ namespace LEAKSCITY_Auth.Model
     {
         [JsonProperty("auth_status")]
         public bool AuthStatus { get; set; }
+        [JsonProperty("user_level")]
+        public int KeyLevel { get; set; }
         [JsonProperty("user_nick")]
         public string Username { get; set; }
         [JsonProperty("user_likes")]
